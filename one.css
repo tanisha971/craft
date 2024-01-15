@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+    background-color: black;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black !important;
+} 
+
+button {
+    cursor: pointer;
+}
+
+.div1 {
+    height: 4rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-color: rgba(15,14,30,255);
+}
+
+.div1 a {
+    height: 2rem;
+    width: 200px;
+    font-size: large;
+    color: #b4b3bf;
+    justify-content: center;
+    text-align: center;
+    background-color: #110f1e;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.div1 a:hover {
+    font-size: 20px;
+    color: white;
+}
+
+.div1 button {
+    background-color: #110f1e;
+    border: 2px solid #a473e4;
+    border-radius: 2px;
+    color: #a473e4;
+}
+
+#home {
+    padding-left: 300px;
+}
+
+#about {
+    padding-left: 30px;
+}
+
+#club {
+    padding-left: 30px;
+}
+
+#contact {
+    padding-left: 30px;
+    padding-right: 400px;
+}
+
+#join {
+    height: 2rem;
+    width: 200px;
+    font-size: large;
+}
+
+.com {
+    background-color: #110f1e;
+    color: #a473e4;
+    border: 2px solid #a473e4;
+    height: 50px;
+    width: 200px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.com:hover {
+    background: #bc9be8;
+    color: #050801;
+    box-shadow: 0 0 5px #bc9be8,
+                0 0 25px #bc9be8,
+                0 0 50px #bc9be8,
+                0 0 200px #bc9be8;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+.bt1 {
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.bt1:hover {
+    background: rgb(246, 227, 125);
+    color: #050801;
+    box-shadow: 0 0 5px rgb(246, 227, 125),
+                0 0 25px rgb(246, 227, 125),
+                0 0 50px rgb(246, 227, 125),
+                0 0 200px rgb(246, 227, 125);
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+.bt2 {
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.bt2:hover {
+    background: rgb(246, 227, 125);
+    color: #050801;
+    box-shadow: 0 0 5px rgb(246, 227, 125),
+                0 0 25px rgb(246, 227, 125),
+                0 0 50px rgb(246, 227, 125),
+                0 0 200px rgb(246, 227, 125);
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+.com:nth-child(1){
+    filter: hue-rotate(270deg);
+}
+
+.com:nth-child(2){
+    filter: hue-rotate(110deg);
+}
+
+.div2 {
+    flex-direction: row;
+
+}
+
+.div2-p2 {
+    display: flexbox;
+}
+
+.wel {
+    font-size: 20px;
+}
+
+.div3 {
+    height: 4rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(15,14,30,255);
+    justify-content: center;
+}
+
+.div3 img {
+    align-items: center;
+    justify-content: center;
+}
+
+.div4 {
+    display: flex;
+}
+
+.div5 {
+    display: flex;
+}
+
+.container1 {
+    display: flex;
+    padding-left: 200px;
+
+}
+
+.container2 {
+    text-align: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.container2 img:hover {
+    height: 40px;
+    width: 70px;
+}
+
+.div6 h2{
+    font-size: 50px;
+}
+
+.div6-p1, .div6-p2 {
+    float: left;
+}
+
+.div6-p1 {
+    margin-right: 40%;
+}
+
+.div6-p2 {
+    padding-right: 50px;
+}
+
+.div7 {
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+    padding-bottom: 50px;
+    display: block;
+}
+
+#join {
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+#join:hover {
+    background: #bc9be8;
+    color: #050801;
+    box-shadow: 0 0 5px #bc9be8,
+                0 0 25px #bc9be8,
+                0 0 50px #bc9be8,
+                0 0 200px #bc9be8;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
